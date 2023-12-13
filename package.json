@@ -1,5 +1,9 @@
 {
   "name": "fcc-learn-node-with-express",
+  "license":"MIT",
+  "keywords": ["node","express","mangoss"],
+  "description": "testing the node server",
+  "author": "Mohit Soni",
   "version": "0.1.0",
   "dependencies": {
     "body-parser": "^1.15.2",
