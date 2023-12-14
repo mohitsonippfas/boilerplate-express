@@ -1,10 +1,10 @@
 require('dotenv').config()
-require('body-parser');
 const bodyParser = require('body-parser');
 let express = require('express');
 let app = express();
 
-bodyParser.urlencoded({extended:false})
+app.use(bodyParser.urlencoded({ extended: false }));
+
 
 // midleware to set design 
 app.use("/public", express.static(__dirname + "/public"));
